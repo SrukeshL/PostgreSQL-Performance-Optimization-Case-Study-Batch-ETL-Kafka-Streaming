@@ -1,0 +1,3 @@
+- Chosen: At-least-once
+- Idempotent writes on consumer side
+- Offset commits after successful DB writes
