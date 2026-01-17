@@ -1,0 +1,4 @@
+## Observability Strategy
+- Metrics-first debugging
+- Alerts before failure
+- Explicit failure scenarios
