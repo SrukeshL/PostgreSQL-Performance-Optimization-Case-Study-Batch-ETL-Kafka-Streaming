@@ -1,0 +1,3 @@
+- Always push computation closer to data
+- Measure before optimizing
+- Observability prevents blind scaling
