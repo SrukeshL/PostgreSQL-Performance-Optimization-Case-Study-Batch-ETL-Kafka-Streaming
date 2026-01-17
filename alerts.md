@@ -1,0 +1,3 @@
+- Alert if ETL runtime > 60 mins
+- Alert if Kafka lag > 5 mins
+- Alert if DB write latency spikes > 3x baseline
