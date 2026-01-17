@@ -1,0 +1,3 @@
+- DB slowdown → Backpressure → Kafka lag
+- Consumer restart → Offset rewind
+- Partial batch failure → Retry logic
