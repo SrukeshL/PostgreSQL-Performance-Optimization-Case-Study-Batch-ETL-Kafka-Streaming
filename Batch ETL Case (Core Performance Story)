@@ -1,0 +1,16 @@
+## Batch ETL Pipeline Overview ##
+
+### Flow ###
+Source DB → Extract → Transform → Aggregate → Load → Analytics Tables
+
+### Original Issues ###
+- Full table scans on every run
+- Row-by-row processing
+- Unoptimized aggregation SQL
+- High memory usage during transform phase
+
+### Fixes Implemented ###
+- Incremental extraction using watermark
+- Chunked reads & writes
+- SQL pushdown for aggregations
+- Reduced Python object overhead
